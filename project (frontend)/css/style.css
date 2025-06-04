@@ -1,0 +1,219 @@
+/* Start of Boilerplate Reset */
+
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  /* 3. Enable keyword animations */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      interpolate-size: allow-keywords;
+    }
+  }
+  
+  body {
+    /* 4. Add accessible line-height */
+    line-height: 1.5;
+    /* 5. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 6. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 7. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 8. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 9. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    10. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+
+
+
+/* End of Boilerplate Reset */
+
+
+/* Start of working Code */
+
+#f-page {
+    background-color: #ffffff;
+    height: 4835px;
+    width: 1440px;
+
+  }
+
+  #header {
+    height: 100px;
+  }
+
+  #hstrip {
+    position: relative;
+    background-color: #ffffff;
+    height: 41px;
+    width: 1286px;
+    top: 29px;
+    margin: auto;
+    /*padding: 29px 0px;*/
+
+  }
+
+  #logo {
+    position: absolute;
+    width: 185px;
+    height: 41px;
+  }
+
+  #nav {
+    position: absolute;
+    width: 430px;
+    height: 24;
+    top: 9px;
+    left: 451px;
+    background-color: yellow;
+    margin: auto;
+  }
+
+  #alert {
+    position: absolute;
+    width: 28;
+    height: 28;
+    top: 7px;
+    left: 1039px;
+  }
+
+  #search {
+    position: absolute;
+    width: 28;
+    height: 28;
+    top: 7px;
+    left: 1112px;
+  }
+
+  #heart {
+    position: absolute;
+    width: 28;
+    height: 28;
+    top: 7px;
+    left: 1185px;
+  }
+
+  #cart {
+    position: absolute;
+    width: 28;
+    height: 28;
+    top: 7px;
+    left: 1258px;
+  }
+
+  #home {
+    position: absolute;
+    width: 48;
+    height: 24;
+    top: 7px;
+    left: -40px;
+  }
+
+  #shop {
+    position: absolute;
+    width: 42;
+    height: 24;
+    top: 7px;
+    left: 20%;
+  }
+
+  #about {
+    position: absolute;
+    width: 49;
+    height: 24;
+    top: 7px;
+    left: 50%;
+  }
+
+  #contact {
+    position: absolute;
+    width: 66;
+    height: 24;
+    top: 7px;
+    left: 80%;
+  }
+
+  #im-logo {
+    width: 50px;
+    height: 32px;
+    float: left;
+  }
+
+  #txt-logo {
+    font-family: poppins;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0px;
+  }
+
+  .txt1 {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+  }
+
+  #sec-2 {
+    position: relative;
+    background-image: url("../img/sec-2.svg");
+    height: 716.83px;
+    width: 1440px;
+    background-color: aqua;
+
+  }
+
+  #w-box-1 {
+    position: relative;
+    background-color: #fff3e3;
+    width: 643px;
+    height: 443px;
+    top: 153px;
+    left: 739px;
+    border-radius: 10px;
+  }
+
+  #box-1 {
+    position: relative;
+    width: 561px;
+    height: 344px;
+    padding-top: 62;
+    margin: auto;
+    background-color: red;
+  }
